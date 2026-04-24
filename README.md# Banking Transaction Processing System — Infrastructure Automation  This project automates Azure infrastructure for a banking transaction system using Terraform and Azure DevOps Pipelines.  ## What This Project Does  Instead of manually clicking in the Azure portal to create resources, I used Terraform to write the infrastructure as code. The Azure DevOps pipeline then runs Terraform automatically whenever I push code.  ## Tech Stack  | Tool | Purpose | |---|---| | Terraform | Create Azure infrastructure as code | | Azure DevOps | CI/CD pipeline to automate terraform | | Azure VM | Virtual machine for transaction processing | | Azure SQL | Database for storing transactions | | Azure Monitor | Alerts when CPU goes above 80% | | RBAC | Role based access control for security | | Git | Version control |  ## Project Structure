@@ -1,0 +1,10 @@
+banking-terraform-azure/
+├── azure-pipelines.yml        # pipeline to run terraform automatically
+├── terraform/
+│   ├── main.tf                # creates all azure resources
+│   ├── variables.tf           # input variables
+│   └── provider.tf            # azure provider config
+├── environments/
+│   └── dev.tfvars             # values for dev environment
+└── scripts/
+└── validate_infra.py      # checks if resources were created correctly
